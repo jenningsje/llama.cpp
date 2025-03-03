@@ -61,7 +61,7 @@ EOF
 
 mkdir -p %{buildroot}/etc/sysconfig
 %{__cat} <<EOF  > %{buildroot}/etc/sysconfig/llama
-LLAMA_ARGS="-m /opt/llama2/ggml-model-f32.bin"
+LLAMA_ARGS="-m /opt/granite3.1-dense/ggml-model-f32.bin"
 EOF
 
 %clean
